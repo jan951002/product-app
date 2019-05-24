@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProductApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="productName">product name</string>
+    <string name="productPrice">product price</string>
+    <string name="productDescription">product description</string>
+</resources>

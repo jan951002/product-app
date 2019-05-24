@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.productdetail.ProductDetailActivity"
+        android:padding="@dimen/margin_normal"
+        android:orientation="vertical"
+android:gravity="center_vertical">
+
+    <android.support.v7.widget.CardView android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="@dimen/margin_normal">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="@dimen/margin_normal">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:weightSum="1"
+                          android:gravity="center_vertical">
+
+                <ImageView android:id="@+id/product_photo"
+                           android:layout_width="0dp"
+                           android:layout_height="@dimen/dimen_photo_card"
+                           android:layout_weight="0.25"
+                           android:scaleType="centerCrop"
+                           android:background="@drawable/img_circle"
+                           android:layout_marginRight="@dimen/dimen_item_margin"
+                           android:contentDescription="@string/app_name"/>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.75">
+
+                    <TextView
+                            android:id="@+id/labProductName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:maxLines="2"
+                            android:text="@string/productName"
+                            android:textSize="@dimen/dimen_big_text"/>
+
+                    <TextView
+                            android:id="@+id/labProductPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/productPrice"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                    android:id="@+id/labProductDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"
+                    android:maxLines="15"/>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/margin_normal"
+                                        android:layout_marginBottom="@dimen/margin_normal"
+                                        android:padding="@dimen/margin_normal">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="@dimen/margin_normal">
+
+            <TextView
+                    android:id="@+id/labProductId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"/>
+
+            <TextView
+                    android:id="@+id/labProductCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"/>
+
+            <TextView
+                    android:id="@+id/labProductClient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"/>
+            <TextView
+                    android:id="@+id/labProductState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"/>
+
+            <TextView
+                    android:id="@+id/labProductDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"/>
+
+            <TextView
+                    android:id="@+id/labProductLikes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="@dimen/margin_normal">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="@dimen/margin_normal">
+            <TextView
+                    android:id="@+id/labPromotionId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"/>
+            <TextView
+                    android:id="@+id/labPromotionPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"/>
+
+            <TextView
+                    android:id="@+id/labPromotionDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"/>
+
+            <TextView
+                    android:id="@+id/labPromotionState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/productDescription"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
